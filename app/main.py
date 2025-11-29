@@ -3,6 +3,8 @@ from pydantic import BaseModel
 import asyncio
 import os
 from app.solver import handle_quiz
+# main.py (place at repo root)
+from app.main import app  # import the FastAPI object from app/main.py
 
 app = FastAPI(title="LLM Quiz Solver - Starter")
 
