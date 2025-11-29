@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+playwright
+pdfplumber
+python-dotenv
+requests
+pydantic
+google-generativeai; # optional - install per official docs or replace with correct package
